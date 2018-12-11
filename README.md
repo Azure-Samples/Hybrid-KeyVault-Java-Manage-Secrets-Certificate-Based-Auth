@@ -1,57 +1,60 @@
-# Project Name
+---
+services: Azure-Stack
+platforms: java
+author: viananth
+---
 
-(short, 1-3 sentenced, description of the project)
+# Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
 
-## Features
+This sample uses certificate based service principal authentication to work with Keyvaults.
 
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
-
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
+  Azure Stack sample for managing Keyvaults -
+   - Create a Keyvault using cert based authentication
+   - Create a secret inside the keyvault
+   - Get the secret
+   - Delete the Resource Group.
 
 
-## Demo
+## Running this Sample ##
 
-A demo app is included to show how to use the project.
+To run this sample:
 
-To run the demo, follow these steps:
+1. Clone the repository using the following command:
 
-(Add steps to start up the demo)
+    git clone https://github.com/Azure-Samples/Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth.git
 
-1.
-2.
-3.
+2. Create an Azure service principal and assign a role to access the subscription. For instructions on creating a service principal, see [Use Azure PowerShell to create a service principal with a certificate](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-create-service-principals).
 
-## Resources
+3. Export the service principal certificate as a pfx file.
 
-(Any additional resources or related projects)
+4. Set the following required environment variable values:
 
-- Link to supporting information
-- Link to similar sample
-- ...
+    * AZURE_TENANT_ID
+
+    * AZURE_CLIENT_ID
+
+    * AZURE_CERT_SECRET
+    
+    * AZURE_CERT_PATH
+
+    * AZURE_SUBSCRIPTION_ID
+
+    * ARM_ENDPOINT
+
+    * RESOURCE_LOCATION
+
+5. Change directory to Hybrid sample:
+    
+    * cd Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
+
+6. Run the sample:
+    * mvn clean compile exec:java
+
+## More information ##
+
+[http://azure.com/java](http://azure.com/java)
+
+
+---
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
