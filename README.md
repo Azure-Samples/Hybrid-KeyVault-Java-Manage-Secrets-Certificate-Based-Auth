@@ -8,14 +8,14 @@ author: viananth
 
 This sample uses certificate based service principal authentication to work with Keyvaults.
 
-  Azure Stack sample for managing Keyvaults -
-   - Create a Keyvault using cert based authentication
-   - Create a secret inside the keyvault
-   - Get the secret
-   - Delete the Resource Group.
+  Azure Stack sample for managing Keyvaults
 
+    - Create a Keyvault using cert based authentication
+    - Create a secret inside the keyvault
+    - Get the secret
+    - Delete the Resource Group.
 
-## Running this Sample ##
+## Running this Sample
 
 To run this sample:
 
@@ -29,31 +29,24 @@ To run this sample:
 
 4. Set the following required environment variable values:
 
-    * AZURE_TENANT_ID
-
-    * AZURE_CLIENT_ID
-
-    * AZURE_CERT_SECRET
-    
-    * AZURE_CERT_PATH
-
-    * AZURE_SUBSCRIPTION_ID
-
-    * ARM_ENDPOINT
-
-    * RESOURCE_LOCATION
+    - AZURE_TENANT_ID
+    - AZURE_CLIENT_ID
+    - AZURE_OBJECT_ID (To set access permissions for KeyVault. You can retrieve this value from the output during Service Principal Creation)
+    - AZURE_CERT_SECRET
+    - AZURE_CERT_PATH
+    - AZURE_SUBSCRIPTION_ID
+    - ARM_ENDPOINT
+    - RESOURCE_LOCATION
 
 5. Change directory to Hybrid sample:
-    
-    * cd Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
+    - cd Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
 
 6. Run the sample:
-    * mvn clean compile exec:java
+    - mvn clean compile exec:java
 
-## More information ##
+## More information
 
 [http://azure.com/java](http://azure.com/java)
-
 
 ---
 
