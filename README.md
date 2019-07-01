@@ -1,8 +1,14 @@
 ---
-services: Azure-Stack
-platforms: java
-author: viananth
+topic: sample
+languages:
+  - java
+products:
+  - Azure-Stack
+  - Azure
+name:
+  - Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
 ---
+
 
 # Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
 
