@@ -1,12 +1,11 @@
 ---
-topic: sample
+page_type: sample
 languages:
-  - java
+- java
 products:
-  - Azure-Stack
-  - Azure
-name:
-  - Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
+- azure
+description: "This sample uses certificate based service principal authentication to work with Keyvaults."
+urlFragment: Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
 ---
 
 
