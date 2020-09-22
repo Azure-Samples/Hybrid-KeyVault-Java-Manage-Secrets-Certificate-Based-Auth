@@ -20,6 +20,16 @@ This sample uses certificate based service principal authentication to work with
     - Get the secret
     - Delete the Resource Group.
 
+The key vault SDK package  here is **com.microsoft.azure.azure-keyvault**, if you are using the [latest](https://search.maven.org/artifact/com.azure/azure-security-keyvault-secrets) version of the key vault SDK package, please reference to the following examples:
+
+[IdentityReadmeSamples.java](https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/keyvault/azure-security-keyvault-secrets/src/samples/java/com/azure/security/keyvault/secrets/IdentityReadmeSamples.java)- Examples to enumerate blobs
+    * Create a Keyvault using cert based authentication.
+
+[HelloWorld.java](https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/keyvault/azure-security-keyvault-secrets/src/samples/java/com/azure/security/keyvault/secrets/HelloWorld.java)  - Examples for common key vault tasks:
+
+    * Create a secret inside the keyvault
+    * Get the secret
+
 ## Running this Sample
 
 To run this sample:
