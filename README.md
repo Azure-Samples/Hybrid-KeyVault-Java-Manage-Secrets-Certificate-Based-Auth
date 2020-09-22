@@ -13,10 +13,10 @@ urlFragment: Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
 
 ## This sample shows how to do the following operations of Key Vault with Key Vault SDK
 
-    * Create a Keyvault using cert based authentication
-    * Create a secret inside the keyvault
-    * Get the secret
-    * Delete the Resource Group.
+* Create a Keyvault using cert based authentication
+* Create a secret inside the keyvault
+* Get the secret
+* Delete the Resource Group.
 
 ## Running this Sample
 
