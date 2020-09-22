@@ -24,12 +24,12 @@ The key vault SDK package  here is **com.microsoft.azure.azure-keyvault**, if yo
 
 [IdentityReadmeSamples.java](https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/keyvault/azure-security-keyvault-secrets/src/samples/java/com/azure/security/keyvault/secrets/IdentityReadmeSamples.java)- Examples to authenticate to key vault secret client
 
-    * Create a secret client using cert based authentication.
+    - Create a secret client using cert based authentication.
 
 [HelloWorld.java](https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/keyvault/azure-security-keyvault-secrets/src/samples/java/com/azure/security/keyvault/secrets/HelloWorld.java)  - Examples for common key vault tasks:
 
-    * Create a secret inside the keyvault
-    * Get the secret
+    - Create a secret inside the keyvault
+    - Get the secret
 
 ## Running this Sample
 
