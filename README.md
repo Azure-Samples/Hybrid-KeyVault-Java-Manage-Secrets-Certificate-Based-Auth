@@ -16,7 +16,7 @@ urlFragment: Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
 * Create a Keyvault using cert based authentication
 * Create a secret inside the keyvault
 * Get the secret
-* Delete the Resource Group.
+* Delete the Resource Group
 
 ## Running this Sample
 
