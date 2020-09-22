@@ -54,7 +54,7 @@ The key vault SDK package  here is **com.microsoft.azure.azure-keyvault**, if yo
 * [IdentityReadmeSamples.java](https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/keyvault/azure-security-keyvault-secrets/src/samples/java/com/azure/security/keyvault/secrets/IdentityReadmeSamples.java)- Examples to authenticate to key vault secret client
 
     * createClientCertificateCredential: Create a secret client using cert based authentication.
-    * createDefaultAzureCredential: Create a secret client using default azure credential.
+    * createDefaultAzureCredential: Create a secret client using DefaultAzureCredential.
 
 * [HelloWorld.java](https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/keyvault/azure-security-keyvault-secrets/src/samples/java/com/azure/security/keyvault/secrets/HelloWorld.java)  - Examples for common key vault tasks:
 
