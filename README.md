@@ -11,14 +11,12 @@ urlFragment: Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
 
 # Hybrid-KeyVault-Java-Manage-Secrets-Certificate-Based-Auth
 
-This sample uses certificate based service principal authentication to work with Keyvaults.
+## This sample shows how to do the following operations of Key Vault with Key Vault SDK
 
-  Azure Stack sample for managing Keyvaults
-
-    - Create a Keyvault using cert based authentication
-    - Create a secret inside the keyvault
-    - Get the secret
-    - Delete the Resource Group.
+* Create a Key Vault using certificate based authentication
+* Create a secret inside the Key Vault
+* Get the secret
+* Delete the Resource Group
 
 ## Running this Sample
 
@@ -49,9 +47,20 @@ To run this sample:
 6. Run the sample:
     - mvn clean compile exec:java
 
+## Use latest Key Vault SDK
+
+The Key Vault secrets SDK here is **com.azure:azure-security-keyvault-secrets**, if you are using the [latest](https://search.maven.org/artifact/com.azure/azure-security-keyvault-secrets) version of the Key Vault SDK package, please refer to the following examples:
+
+* [IdentityReadmeSamples.java](https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/keyvault/azure-security-keyvault-secrets/src/samples/java/com/azure/security/keyvault/secrets/IdentityReadmeSamples.java) shows multiple ways to authenticate the Key Vault client via DefaultAzureCredential, device code, client secret or certificate in addition to others.
+
+* [HelloWorld.java](https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/keyvault/azure-security-keyvault-secrets/src/samples/java/com/azure/security/keyvault/secrets/HelloWorld.java) - Examples for common Key Vault tasks:
+
+    * Create a secret inside the Key Vault
+    * Get the secret
+
 ## More information
 
-[http://azure.com/java](http://azure.com/java)
+https://azure.com/java
 
 ---
 
